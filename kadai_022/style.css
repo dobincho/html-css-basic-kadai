@@ -39,11 +39,13 @@ main {
       flex-basis: 25%;
       padding: 10px 15px;
       margin: 20px 0;
+      text-align: center;
    }
+  
   .contents img {
       margin: 10px 0;
-      width: 70%;
-      }
+      width: 70%;    
+   }
   
 
 
@@ -66,16 +68,19 @@ h2::before {
     color: rgb(239,111,139);
     
 }
- 
-
-
-
-
-
-
 
 footer {
   background-color: rgb(244,79,79);
   text-align: center;
+}
+a:link {
+  color: rgb(255,255,255)
+
+}
+a:visited {
+  color: rgb(193,234,251)
+}
+a:hover {
+  color: rgb(245,178,168)
 }
 
